@@ -1,0 +1,911 @@
+{
+  "meta": {
+    "floors": 8,
+    "rooms_per_floor": 10,
+    "customer_seq": 6,
+    "booking_seq": 6,
+    "waiting_id_seq": 3,
+    "waiting_order_seq": 3,
+    "service_id_seq": 3,
+    "service_order_seq": 3,
+    "payment_seq": 2
+  },
+  "rooms": [
+    {
+      "floor": 1,
+      "room_number": 1,
+      "room_type": "SINGLE",
+      "price_per_night": 500000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 1,
+      "room_number": 2,
+      "room_type": "SINGLE",
+      "price_per_night": 500000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 1,
+      "room_number": 3,
+      "room_type": "SINGLE",
+      "price_per_night": 500000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 1,
+      "room_number": 4,
+      "room_type": "SINGLE",
+      "price_per_night": 500000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": true
+    },
+    {
+      "floor": 1,
+      "room_number": 5,
+      "room_type": "DOUBLE",
+      "price_per_night": 800000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 1,
+      "room_number": 6,
+      "room_type": "DOUBLE",
+      "price_per_night": 800000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 1,
+      "room_number": 7,
+      "room_type": "DOUBLE",
+      "price_per_night": 800000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 1,
+      "room_number": 8,
+      "room_type": "DOUBLE",
+      "price_per_night": 800000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 1,
+      "room_number": 9,
+      "room_type": "SUITE",
+      "price_per_night": 1500000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 1,
+      "room_number": 10,
+      "room_type": "SUITE",
+      "price_per_night": 1500000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 1,
+      "room_type": "SINGLE",
+      "price_per_night": 550000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 2,
+      "room_type": "SINGLE",
+      "price_per_night": 550000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 3,
+      "room_type": "SINGLE",
+      "price_per_night": 550000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 4,
+      "room_type": "SINGLE",
+      "price_per_night": 550000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 5,
+      "room_type": "DOUBLE",
+      "price_per_night": 850000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 6,
+      "room_type": "DOUBLE",
+      "price_per_night": 850000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 7,
+      "room_type": "DOUBLE",
+      "price_per_night": 850000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 8,
+      "room_type": "DOUBLE",
+      "price_per_night": 850000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 9,
+      "room_type": "SUITE",
+      "price_per_night": 1550000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 2,
+      "room_number": 10,
+      "room_type": "SUITE",
+      "price_per_night": 1550000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 1,
+      "room_type": "SINGLE",
+      "price_per_night": 600000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 2,
+      "room_type": "SINGLE",
+      "price_per_night": 600000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 3,
+      "room_type": "SINGLE",
+      "price_per_night": 600000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 4,
+      "room_type": "SINGLE",
+      "price_per_night": 600000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 5,
+      "room_type": "DOUBLE",
+      "price_per_night": 900000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 6,
+      "room_type": "DOUBLE",
+      "price_per_night": 900000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 7,
+      "room_type": "DOUBLE",
+      "price_per_night": 900000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 8,
+      "room_type": "DOUBLE",
+      "price_per_night": 900000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 9,
+      "room_type": "SUITE",
+      "price_per_night": 1600000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 3,
+      "room_number": 10,
+      "room_type": "SUITE",
+      "price_per_night": 1600000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 1,
+      "room_type": "SINGLE",
+      "price_per_night": 650000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 2,
+      "room_type": "SINGLE",
+      "price_per_night": 650000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 3,
+      "room_type": "SINGLE",
+      "price_per_night": 650000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 4,
+      "room_type": "SINGLE",
+      "price_per_night": 650000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 5,
+      "room_type": "DOUBLE",
+      "price_per_night": 950000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 6,
+      "room_type": "DOUBLE",
+      "price_per_night": 950000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 7,
+      "room_type": "DOUBLE",
+      "price_per_night": 950000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 8,
+      "room_type": "DOUBLE",
+      "price_per_night": 950000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 9,
+      "room_type": "SUITE",
+      "price_per_night": 1650000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 4,
+      "room_number": 10,
+      "room_type": "SUITE",
+      "price_per_night": 1650000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 1,
+      "room_type": "SINGLE",
+      "price_per_night": 700000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 2,
+      "room_type": "SINGLE",
+      "price_per_night": 700000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 3,
+      "room_type": "SINGLE",
+      "price_per_night": 700000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 4,
+      "room_type": "SINGLE",
+      "price_per_night": 700000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 5,
+      "room_type": "DOUBLE",
+      "price_per_night": 1000000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 6,
+      "room_type": "DOUBLE",
+      "price_per_night": 1000000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 7,
+      "room_type": "DOUBLE",
+      "price_per_night": 1000000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 8,
+      "room_type": "DOUBLE",
+      "price_per_night": 1000000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 9,
+      "room_type": "SUITE",
+      "price_per_night": 1700000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 5,
+      "room_number": 10,
+      "room_type": "SUITE",
+      "price_per_night": 1700000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 1,
+      "room_type": "SINGLE",
+      "price_per_night": 750000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 2,
+      "room_type": "SINGLE",
+      "price_per_night": 750000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 3,
+      "room_type": "SINGLE",
+      "price_per_night": 750000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 4,
+      "room_type": "SINGLE",
+      "price_per_night": 750000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 5,
+      "room_type": "DOUBLE",
+      "price_per_night": 1050000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 6,
+      "room_type": "DOUBLE",
+      "price_per_night": 1050000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 7,
+      "room_type": "DOUBLE",
+      "price_per_night": 1050000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 8,
+      "room_type": "DOUBLE",
+      "price_per_night": 1050000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 9,
+      "room_type": "SUITE",
+      "price_per_night": 1750000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 6,
+      "room_number": 10,
+      "room_type": "SUITE",
+      "price_per_night": 1750000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 1,
+      "room_type": "SINGLE",
+      "price_per_night": 800000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 2,
+      "room_type": "SINGLE",
+      "price_per_night": 800000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 3,
+      "room_type": "SINGLE",
+      "price_per_night": 800000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 4,
+      "room_type": "SINGLE",
+      "price_per_night": 800000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 5,
+      "room_type": "DOUBLE",
+      "price_per_night": 1100000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 6,
+      "room_type": "DOUBLE",
+      "price_per_night": 1100000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 7,
+      "room_type": "DOUBLE",
+      "price_per_night": 1100000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 8,
+      "room_type": "DOUBLE",
+      "price_per_night": 1100000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 9,
+      "room_type": "SUITE",
+      "price_per_night": 1800000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 7,
+      "room_number": 10,
+      "room_type": "SUITE",
+      "price_per_night": 1800000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 1,
+      "room_type": "SINGLE",
+      "price_per_night": 850000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 2,
+      "room_type": "SINGLE",
+      "price_per_night": 850000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 3,
+      "room_type": "SINGLE",
+      "price_per_night": 850000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 4,
+      "room_type": "SINGLE",
+      "price_per_night": 850000,
+      "description": "1 giường đơn, phòng tắm riêng, Wi-Fi",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 5,
+      "room_type": "DOUBLE",
+      "price_per_night": 1150000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 6,
+      "room_type": "DOUBLE",
+      "price_per_night": 1150000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 7,
+      "room_type": "DOUBLE",
+      "price_per_night": 1150000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 8,
+      "room_type": "DOUBLE",
+      "price_per_night": 1150000,
+      "description": "1 giường đôi hoặc 2 giường đơn, TV, minibar",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 9,
+      "room_type": "SUITE",
+      "price_per_night": 1850000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    },
+    {
+      "floor": 8,
+      "room_number": 10,
+      "room_type": "SUITE",
+      "price_per_night": 1850000,
+      "description": "Phòng khách riêng, bồn tắm, view thành phố",
+      "under_maintenance": false
+    }
+  ],
+  "bookings": [
+    {
+      "booking_id": "BK00001",
+      "customer_id": "KH004",
+      "room_id": "P509",
+      "check_in": "2026-11-12",
+      "check_out": "2026-11-15",
+      "price_per_night": 1700000,
+      "created_at": "2026-11-17",
+      "status": "CHECKED_OUT",
+      "vip_level_at_booking": 3
+    },
+    {
+      "booking_id": "BK00002",
+      "customer_id": "KH001",
+      "room_id": "P101",
+      "check_in": "2026-11-16",
+      "check_out": "2026-11-19",
+      "price_per_night": 500000,
+      "created_at": "2026-11-17",
+      "status": "CHECKED_IN",
+      "vip_level_at_booking": 0
+    },
+    {
+      "booking_id": "BK00003",
+      "customer_id": "KH003",
+      "room_id": "P205",
+      "check_in": "2026-11-17",
+      "check_out": "2026-11-20",
+      "price_per_night": 850000,
+      "created_at": "2026-11-17",
+      "status": "CHECKED_IN",
+      "vip_level_at_booking": 2
+    },
+    {
+      "booking_id": "BK00004",
+      "customer_id": "KH002",
+      "room_id": "P306",
+      "check_in": "2026-11-18",
+      "check_out": "2026-11-21",
+      "price_per_night": 900000,
+      "created_at": "2026-11-17",
+      "status": "CONFIRMED",
+      "vip_level_at_booking": 1
+    },
+    {
+      "booking_id": "BK00005",
+      "customer_id": "KH004",
+      "room_id": "P410",
+      "check_in": "2026-11-17",
+      "check_out": "2026-11-21",
+      "price_per_night": 1650000,
+      "created_at": "2026-11-17",
+      "status": "CONFIRMED",
+      "vip_level_at_booking": 3
+    },
+    {
+      "booking_id": "BK00006",
+      "customer_id": "KH005",
+      "room_id": "P102",
+      "check_in": "2026-11-19",
+      "check_out": "2026-11-22",
+      "price_per_night": 500000,
+      "created_at": "2026-11-17",
+      "status": "CANCELLED",
+      "vip_level_at_booking": 0
+    }
+  ],
+  "customers": [
+    {
+      "customer_id": "KH001",
+      "full_name": "Nguyễn Văn An",
+      "cccd": "001200012345",
+      "phone": "0901234567",
+      "vip_level": 0,
+      "manual_vip_level": 0,
+      "history": [
+        "BK00002"
+      ]
+    },
+    {
+      "customer_id": "KH002",
+      "full_name": "Trần Thị Bích",
+      "cccd": "001200023456",
+      "phone": "0912345678",
+      "vip_level": 1,
+      "manual_vip_level": 1,
+      "history": [
+        "BK00004"
+      ]
+    },
+    {
+      "customer_id": "KH003",
+      "full_name": "Lê Hoàng Nam",
+      "cccd": "001200034567",
+      "phone": "0923456789",
+      "vip_level": 2,
+      "manual_vip_level": 2,
+      "history": [
+        "BK00003"
+      ]
+    },
+    {
+      "customer_id": "KH004",
+      "full_name": "Phạm Minh Châu",
+      "cccd": "001200045678",
+      "phone": "0934567890",
+      "vip_level": 3,
+      "manual_vip_level": 3,
+      "history": [
+        "BK00001",
+        "BK00005"
+      ]
+    },
+    {
+      "customer_id": "KH005",
+      "full_name": "Hoàng Đức Thịnh",
+      "cccd": "001200056789",
+      "phone": "0945678901",
+      "vip_level": 0,
+      "manual_vip_level": 0,
+      "history": [
+        "BK00006"
+      ]
+    },
+    {
+      "customer_id": "KH006",
+      "full_name": "Vũ Ngọc Mai",
+      "cccd": "001200067890",
+      "phone": "0956789012",
+      "vip_level": 2,
+      "manual_vip_level": 2,
+      "history": []
+    }
+  ],
+  "waiting_entries": [
+    {
+      "entry_id": "WL0003",
+      "customer_id": "KH006",
+      "room_type": "SUITE",
+      "check_in": "2026-11-18",
+      "check_out": "2026-11-20",
+      "priority": 2,
+      "sequence": 3,
+      "requested_at": "2026-11-17"
+    },
+    {
+      "entry_id": "WL0002",
+      "customer_id": "KH002",
+      "room_type": "SUITE",
+      "check_in": "2026-11-18",
+      "check_out": "2026-11-20",
+      "priority": 1,
+      "sequence": 2,
+      "requested_at": "2026-11-17"
+    },
+    {
+      "entry_id": "WL0001",
+      "customer_id": "KH005",
+      "room_type": "SUITE",
+      "check_in": "2026-11-18",
+      "check_out": "2026-11-20",
+      "priority": 0,
+      "sequence": 1,
+      "requested_at": "2026-11-17"
+    }
+  ],
+  "undo_stack": [
+    {
+      "booking_id": "BK00006",
+      "room_id": "P102",
+      "booking_snapshot": {
+        "booking_id": "BK00006",
+        "customer_id": "KH005",
+        "room_id": "P102",
+        "check_in": "2026-11-19",
+        "check_out": "2026-11-22",
+        "price_per_night": 500000,
+        "created_at": "2026-11-17",
+        "status": "CONFIRMED",
+        "vip_level_at_booking": 0
+      },
+      "cancelled_by": "STAFF",
+      "cancelled_at": "2026-11-17"
+    }
+  ],
+  "service_requests": {
+    "pending": [
+      {
+        "request_id": "SR0003",
+        "room_id": "P410",
+        "customer_id": "KH004",
+        "service_type": "MEDICAL",
+        "urgency": 3,
+        "note": "Khách bị sốt cao, cần hỗ trợ y tế ngay",
+        "sequence": 3,
+        "requested_at": "2026-11-17",
+        "status": "WAITING"
+      },
+      {
+        "request_id": "SR0002",
+        "room_id": "P205",
+        "customer_id": "KH003",
+        "service_type": "FOOD",
+        "urgency": 2,
+        "note": "2 suất phở bò + 2 nước cam lên phòng",
+        "sequence": 2,
+        "requested_at": "2026-11-17",
+        "status": "WAITING"
+      },
+      {
+        "request_id": "SR0001",
+        "room_id": "P101",
+        "customer_id": "KH001",
+        "service_type": "CLEANING",
+        "urgency": 1,
+        "note": "Thay khăn tắm và dọn phòng buổi sáng",
+        "sequence": 1,
+        "requested_at": "2026-11-17",
+        "status": "WAITING"
+      }
+    ],
+    "completed": []
+  },
+  "payments": [
+    {
+      "payment_id": "TT00002",
+      "booking_id": "BK00002",
+      "customer_id": "KH001",
+      "room_id": "P101",
+      "room_cost": 1500000,
+      "service_cost": 50000,
+      "extra_fee": 0,
+      "discount_amount": 0,
+      "total_amount": 1550000,
+      "payment_method": "BANK_TRANSFER",
+      "paid_at": "2026-11-17",
+      "status": "PAID",
+      "note": "Thanh toán trước tiền phòng P101 và phí dọn phòng"
+    },
+    {
+      "payment_id": "TT00001",
+      "booking_id": "BK00001",
+      "customer_id": "KH004",
+      "room_id": "P509",
+      "room_cost": 5100000,
+      "service_cost": 0,
+      "extra_fee": 0,
+      "discount_amount": 510000,
+      "total_amount": 4590000,
+      "payment_method": "CARD",
+      "paid_at": "2026-11-15",
+      "status": "PAID",
+      "note": "Thanh toán khi trả phòng P509 (giảm 10% hạng Platinum)"
+    }
+  ]
+}
